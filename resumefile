@@ -1,7 +1,8 @@
 public class Test{
   public static void main(String[] args) {
-
-    int num1 = 5;
+Scanner sc = new Scanner(System.in);
+sc.nextInt();
+    int num1 = sc.nextInt();
     System.out.println(num1++)
   }
 }

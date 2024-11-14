@@ -3,6 +3,8 @@ public class Test{
 Scanner sc = new Scanner(System.in);
 sc.nextInt();
     int num1 = sc.nextInt();
-    System.out.println(num1++)
+
+    int num5 = num1 * num1++
+    System.out.println(num5)
   }
 }

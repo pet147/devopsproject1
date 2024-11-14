@@ -6,5 +6,6 @@ sc.nextInt();
 
     int num5 = num1 * num1++
     System.out.println(num5);
+    System.out.println(num1);
   }
 }
